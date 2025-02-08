@@ -92,7 +92,7 @@ function Cart() {
           <TableBody>
             {cartProducts.map((row) => (
               <TableRow key={row.id}>
-                <TableCell sx={{ minWidth: 150, maxWidth: 200 }}>
+                <TableCell sx={{ minWidth: 150, maxWidth: 230 }}>
                   {row.title}
                 </TableCell>
                 <TableCell>
